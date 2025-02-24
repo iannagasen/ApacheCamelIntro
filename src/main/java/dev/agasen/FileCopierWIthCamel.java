@@ -12,6 +12,7 @@ public class FileCopierWIthCamel {
         context.start();
         Thread.sleep(10000);
         context.stop();
+
     }
 
     static class Route extends RouteBuilder {
